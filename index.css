@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* layouts: we use this to arrange elements in the webpage
  there are 3 types to create layouts
  1.float layout
@@ -85,3 +86,18 @@
     text-align: center;
 
 }
+=======
+/* Media Queries:Media Queries are used to make a website responsive. They apply different CSS styles based on the device's
+ screen size, orientation, or resolution.
+  */
+
+
+
+@media (orientation:landscape)and(min-width:800px) {
+h1{
+    background: blue;
+}
+}
+
+
+>>>>>>> e442483488269fc6d9db608c264a682b4191fe1c
