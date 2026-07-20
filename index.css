@@ -1,0 +1,66 @@
+/* External CSS is a method of styling web pages by writing CSS rules in a separate .css file and linking it to 
+an HTML document using the <link> tag. It is the most commonly used approach for styling 
+large websites because it promotes code reuse and maintainability. */
+
+/* h2{
+    color:chocolate
+} */
+
+/* Selecting By Id */
+
+#One {
+    /* color :rgb(89, 243, 62); */
+    font-size : 30px;
+}
+
+/* Selecting by Class (.)  */
+
+.Two {
+    /* color :blueviolet; */
+    font-size: 30px;
+}
+
+/*The Universal Selector (*) 
+is used to select all HTML elements on a webpage and  */
+/* apply the same CSS styles to every element. */
+
+* {
+    color:rgb(130, 227, 19);
+}
+
+* {
+    color: rgb(130, 227, 19);
+}
+
+/* Group Selector : A Group Selector is used to apply the same CSS styles to multiple HTML 
+elements by separating the selectors with commas (,). */
+
+h1, h2, p {
+      color:chartreuse;
+}
+
+/* Combinator Selector */
+/*Combinator selectors are used to select HTML elements 
+ based on their relationship with other elements. */
+
+/* There are 4 types of combinator selectors: */
+
+/* 1.Descendant Selector (space) */
+div p {
+    color: red;
+}
+/* 2.Child Selector (>) */
+div > p {
+    color: blue;
+}
+/* 3.Adjacent Sibling Selector (+) */
+h2 + p {
+    color:chocolate;
+}
+/* 4.General Sibling Selector (~)  */
+h2 ~ p {
+    color: orange;
+}
+
+
+
